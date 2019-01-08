@@ -4,7 +4,7 @@ import blogPosts from './contents/blogPosts.js'
 
 const router = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/<repository-name>/'
+    base: '/zajca.cz/'
   }
 } : {
   router: {
