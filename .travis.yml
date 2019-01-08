@@ -25,3 +25,5 @@ deploy:
   local-dir: dist
   on:
     branch: master
+after_failure:
+  - if ls /home/travis/.npm/_logs/*-debug.log >/dev/null 2>&1; then cd /home/travis/.npm/_logs/ && cat *-debug.log; fi
