@@ -62,7 +62,7 @@ module.exports = {
   ** Load nuxt modules
   */
   modules: [
-    'nuxt-purgecss'
+    // 'nuxt-purgecss'
   ],
   plugins: ['~/plugins/lazyload', '~/plugins/globalComponents'],
   /*

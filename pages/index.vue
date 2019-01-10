@@ -3,7 +3,7 @@
     <h2 class="mt-6 mb-4">About me</h2>
     <p>
       I am a web developer. I live in small village <a href="https://en.wikipedia.org/wiki/Ludkovice" rel="nofollow" target="_blank">Ludkovice</a> with my wife
-      and son. From sports I enjoy hiking and cycling and all my live love Canoe sprint. Also my hobby is growing and eating chilly.
+      and son. From sports I enjoy hiking and cycling and all my life love Canoe sprint. Also my hobby is growing and eating chilly.
     </p>
     <h2 class="mt-6 mb-4">My history</h2>
     <p>
