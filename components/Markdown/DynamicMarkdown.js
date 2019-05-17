@@ -3,9 +3,11 @@ import Alert from './Alert.js'
 import hljs from 'highlight.js/lib/highlight'
 import javascript from 'highlight.js/lib/languages/javascript'
 import php from 'highlight.js/lib/languages/php'
+import yaml from 'highlight.js/lib/languages/yaml'
 
 hljs.registerLanguage('javascript', javascript)
 hljs.registerLanguage('php', php)
+hljs.registerLanguage('yaml', yaml)
 import 'highlight.js/styles/dark.css'
 
 export default {
