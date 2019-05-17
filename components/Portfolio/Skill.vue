@@ -1,15 +1,14 @@
 <template>
-  <li class="flex flex-wrap lg:flex-no-wrap">
-    <div class="lg:h-48 lg:h-auto flex w-full lg:w-auto justify-center items-center lg:mr-4 mb-2 ">
-      <div class="h-24 w-24 bg-grey-light rounded-full flex justify-center items-center">
-        <svg width="96" viewBox="0 0 20 20">
-          <circle class="circle__bg" cx="10" cy="10" r="8"></circle>
-          <circle class="circle__progress" cx="10" cy="10" r="8" :style="style"></circle>
-          <text x="50%" y="55%">{{ percentage*10 }}%</text>
-        </svg>
-      </div>
-    </div>
-    <div class="bg-grey-light rounded p-2 flex flex-grow justify-between items-center leading-normal">
+  <li class="flex bg-grey-lightest relative">
+<!--    <div class="md:h-12 md:w-12 w-full flex justify-center items-center">-->
+<!--      <svg width="40" viewBox="0 0 20 20" class="hidden md:block">-->
+<!--        <circle class="circle__bg" cx="10" cy="10" r="8"></circle>-->
+<!--        <circle class="circle__progress" cx="10" cy="10" r="8" :style="style"></circle>-->
+<!--&lt;!&ndash;        <text x="50%" y="55%">{{ percentage*10 }}</text>&ndash;&gt;-->
+<!--      </svg>-->
+<!--    </div>-->
+    <div class="absolute w-full h-full bg-green-lighter z-0" :style="{width: `${percentage*10}%`}"></div>
+    <div class="p-2 flex w-full justify-between items-center relative z-10">
       <div class="text-black font-bold text-xl">{{title}}</div>
     </div>
   </li>

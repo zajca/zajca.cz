@@ -2,8 +2,10 @@ import InlineCode from './InlineCode.js'
 import Alert from './Alert.js'
 import hljs from 'highlight.js/lib/highlight'
 import javascript from 'highlight.js/lib/languages/javascript'
+import php from 'highlight.js/lib/languages/php'
 
 hljs.registerLanguage('javascript', javascript)
+hljs.registerLanguage('php', php)
 import 'highlight.js/styles/dark.css'
 
 export default {

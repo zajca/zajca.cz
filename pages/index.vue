@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <h2 class="mt-6 mb-4">About me</h2>
+  <section>
+    <h2 class="mb-4">About me</h2>
     <p>
       I am a web developer. I live in small village <a href="https://en.wikipedia.org/wiki/Ludkovice" rel="nofollow" target="_blank">Ludkovice</a> with my wife
       and son. From sports I enjoy hiking and cycling and all my life love Canoe sprint. Also my hobby is growing and eating chilly.
     </p>
     <h2 class="mt-6 mb-4">My history</h2>
     <p>
-      I was always fascinated by computers, still remember first time when I use the Internet in 1998 (or something like that :D) and din't know what to do. My
+      I was always fascinated by computers, still remember first time when I use the Internet in 1998 (or something like that :D) and didn't know what to do. My
       first touch of web development was when I was 12, when I use WYSIWYG editor to put bunch of gif on web page which I called my personal web page. During
       the years in school I learned a lot including that WYSIWYG is not way how to do web development. I'm also huge fan and long time user of Linux, I'm using
       Linux as my main OS since 2008 and Archlinux distribution since 2009. I also start my professional career as Linux Administrator/Frontend developer during
@@ -24,11 +24,11 @@
     <ul class="list-reset">
         <skill class="mb-2" v-for="skill in skills" :key="skill.tech" :percentage="skill.val" :title="skill.tech"></skill>
       <li class="bg-grey-light rounded p-2 flex flex-grow justify-between items-center leading-normal">
-          <div class="text-black font-bold text-xl">And many more that I did forget :D</div>
+          <div class="text-black font-bold text-xl">And many more that I did forget.</div>
       </li>
     </ul>
 
-  </div>
+  </section>
 </template>
 
 <script>
@@ -46,9 +46,9 @@
             company: 'Fond dalšího vzdělávání',
             tags: ['PHP', 'Symfony', 'Javascript', 'VueJS', 'Vuetify', 'CSS', 'Bootstrap'],
             responsibility: [
-              `Development of two project from ground up.`,
-              `<a href="https://nsp.cz" rel="nofollow" target="_blank">Národní soustava povolání</a> which is national catalog of professions and it's definitions. This was rewrite of old .NET application which was failing hard and migration of it's sometimes hilarious database.`,
-              `Jobhub (WIP) modern website to help people to find most suitable professions for their skills`
+              'Development of two project from ground up.',
+              '<a href="https://nsp.cz" rel="nofollow" target="_blank">Národní soustava povolání</a> which is national catalog of professions and it\'s definitions. This was rewrite of old .NET application which was failing hard and migration of it\'s sometimes hilarious database.',
+              'Jobhub (WIP) modern website to help people to find most suitable professions for their skills'
             ]
           },
           {
@@ -58,10 +58,10 @@
             company: 'PRIA SYSTEM s.r.o.',
             tags: ['PHP', 'Symfony', 'Javascript', 'AngularJS', 'Phaser', 'Sonata admin', 'CSS', 'Bootstrap'],
             responsibility: [
-              `Linux servers administration (Ubuntu)`,
-              `Taking care of company internal systems`,
-              `Development of many various web pages and applications from small landing pages over html5 games to big internal company systems like`,
-              `One of the biggest is <a href="https://www.eltma.cz/system/login" target="_blank" rel="nofollow">Eltma</a> Sonata admin based system national tires recycling collection.`,
+              'Linux servers administration (Ubuntu)',
+              'Taking care of company internal systems',
+              'Development of many various web pages and applications from small landing pages over html5 games to big internal company systems like',
+              'One of the biggest is <a href="https://www.eltma.cz/system/login" target="_blank" rel="nofollow">Eltma</a> Sonata admin based system national tires recycling collection.',
             ]
           }
         ],
@@ -109,7 +109,7 @@
           { 'tech': 'Git', 'val': 5, },
           { 'tech': 'ElasticSearch', 'val': 5, },
           { 'tech': 'MongoDB', 'val': 4, },
-          { 'tech': 'AngularJS (all forgotten :D)', 'val': 8, },
+          { 'tech': 'AngularJS (all forgotten)', 'val': 8, },
         ]
       }
     },
