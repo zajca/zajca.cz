@@ -96,7 +96,7 @@ class FormParamConverter implements ParamConverterInterface
 }
 ```
 
-We have to check if FormTypeInterface is present in Action parameters with `supports` method. 
+We have to check if FormTypeInterface is present in Action parameters with <i-c>supports</i-c> method. 
 ```php
 public function supports(ParamConverter $configuration): bool
 {
@@ -155,7 +155,7 @@ public function apply(Request $request, ParamConverter $configuration): bool
 ```
 We can se that we just check ParamConverter Annotation options, paste code from action here and in the end set out valid form as action attribute.
 
-Only one missing thing `UnprocessableFormHttpException` which is thrown if form is not valid. This can be checked in `onKernelException` event, and errors can be serialized for api.
+Only one missing thing <i-c>UnprocessableFormHttpException</i-c> which is thrown if form is not valid. This can be checked in <i-c>onKernelException</i-c> event, and errors can be serialized for api.
  
 ```php
 class UnprocessableFormHttpException extends HttpException
