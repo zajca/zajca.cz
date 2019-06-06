@@ -48,7 +48,7 @@
             responsibility: [
               'Development of two project from ground up.',
               '<a href="https://nsp.cz" rel="nofollow" target="_blank">Národní soustava povolání</a> which is national catalog of professions and it\'s definitions. This was rewrite of old .NET application which was failing hard and migration of it\'s sometimes hilarious database.',
-              'Jobhub (WIP) modern website to help people to find most suitable professions for their skills'
+              '<a href="https://job-hub.cz" rel="nofollow" target="_blank">Jobhub</a> modern website to help people to find most suitable professions for their skills'
             ]
           },
           {
@@ -88,7 +88,7 @@
             since: '2004',
             till: '2008',
             title: 'Maturita obor Technické lyceum',
-            company: 'Střední odborná škola strážnice',
+            company: 'Střední odborná škola Strážnice',
           }
         ],
         skills: [
