@@ -35,6 +35,6 @@
     "postcss-preset-env": "^6.5.0",
     "postcss-url": "^8.0.0",
     "responsive-loader": "^1.2.0",
-    "sharp": "^0.21.1"
+    "sharp": "^0.30.5"
   }
 }
