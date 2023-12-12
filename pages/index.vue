@@ -40,8 +40,18 @@
       return {
         experience: [
           {
-            since: 'Dec 2016',
+            since: 'Oct 2019',
             till: 'Present',
+            title: 'PHP developer',
+            company: 'Keboola :(){:|:&}.: s.r.o.',
+            tags: ['PHP', 'Symfony', 'Zend framework'],
+            responsibility: [
+              'Developement of Keboola connection platform. Mainly storage metadata and integrations with 3rd party big data engines (Snowflake, BigQuery, ...)',
+            ]
+          },
+          {
+            since: 'Dec 2016',
+            till: 'Jun 2019',
             title: 'PHP developer',
             company: 'Fond dalšího vzdělávání',
             tags: ['PHP', 'Symfony', 'Javascript', 'VueJS', 'Vuetify', 'CSS', 'Bootstrap'],
