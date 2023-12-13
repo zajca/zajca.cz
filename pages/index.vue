@@ -110,7 +110,7 @@
           { 'tech': 'MySQL', 'val': 8, },
           { 'tech': 'Git', 'val': 7, },
           { 'tech': 'Docker', 'val': 8, },
-          { 'tech': 'ElasticSearch', 'val': 5?},
+          { 'tech': 'ElasticSearch', 'val': 5, },
           { 'tech': 'JavaScript', 'val': 8, },
           { 'tech': 'VueJS', 'val': 7, },
           { 'tech': 'Nuxt.js', 'val': 7, },
