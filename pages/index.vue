@@ -109,14 +109,14 @@
           { 'tech': 'SQL', 'val': 8, },
           { 'tech': 'MySQL', 'val': 8, },
           { 'tech': 'Git', 'val': 7, },
-          { 'tech': 'ElasticSearch', 'val': 5
+          { 'tech': 'Docker', 'val': 8, },
+          { 'tech': 'ElasticSearch', 'val': 5?},
           { 'tech': 'JavaScript', 'val': 8, },
           { 'tech': 'VueJS', 'val': 7, },
           { 'tech': 'Nuxt.js', 'val': 7, },
           { 'tech': 'HTML', 'val': 7, },
           { 'tech': 'CSS', 'val': 6, },
           { 'tech': 'Bash', 'val': 7, },
-          { 'tech': 'Docker', 'val': 7, },, },
           { 'tech': 'MongoDB', 'val': 4, },
           { 'tech': 'AngularJS (all forgotten)', 'val': 8, },
         ]
