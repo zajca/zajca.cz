@@ -7,14 +7,13 @@
     </p>
     <h2 class="mt-6 mb-4">My history</h2>
     <p>
-      I was always fascinated by computers, still remember first time when I use the Internet in 1998 (or something like that :D) and didn't know what to do. My
+      I was always fascinated by computers, still remember first time when I use the Internet in 1998 and didn't know what to do. My
       first touch of web development was when I was 12, when I use WYSIWYG editor to put bunch of gif on web page which I called my personal web page. During
       the years in school I learned a lot including that WYSIWYG is not way how to do web development. I'm also huge fan and long time user of Linux, I'm using
       Linux as my main OS since 2008 and Archlinux distribution since 2009. I also start my professional career as Linux Administrator/Frontend developer during
       college study in 2013. So between Ubuntu servers I done lot of web pages mostly in AngularJS and Bootstrap for various clients. At this time I learn PHP
-      with Slim and than moved to Symfony. I also made few projects with NodeJS (Express, HapiJS) and games in Phaser. In 2016 I started using VueJS which with
-      NuxtJS is making
-      now my primary frontend technology.
+      with Slim and than moved to Symfony. I also made few projects with NodeJS (Express, HapiJS) and games in Phaser. In 2016 I started using VueJS with
+      NuxtJS. Since 2019 I'm mostly focusing on PHP and Symfony.
     </p>
     <h2 class="mt-6 mb-4">My work experience</h2>
     <card :item="item" v-for="item in experience" :key="item.title" class="mb-2"></card>
@@ -51,9 +50,9 @@
           },
           {
             since: 'Dec 2016',
-            till: 'Jun 2019',
+            till: 'Present',
             title: 'PHP developer',
-            company: 'Fond dalšího vzdělávání',
+            company: 'Fond dalšího vzdělávání, Independent contractor',
             tags: ['PHP', 'Symfony', 'Javascript', 'VueJS', 'Vuetify', 'CSS', 'Bootstrap'],
             responsibility: [
               'Development of two project from ground up.',
